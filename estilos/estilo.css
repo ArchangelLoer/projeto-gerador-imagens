@@ -1,0 +1,254 @@
+body {
+    background-color: #c6ac8f;
+    font-family: 'Inter', sans-serif;
+    padding: 0;       
+    margin: 0
+}
+ /* Navegador */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    background-color: #b08968;
+    padding: 1px 0;
+    height: 130px
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 30px 0 0;
+    padding: 0
+}
+
+ /* Titulos */
+h1, h2, h3 {
+    color: black;
+    text-align: center;
+    font-weight: bold
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 30px
+}
+
+h2 {
+    font-size: 40px
+}
+
+h3 {
+    font-size: 35px
+}
+
+p {
+    font-size: 16px
+}
+
+ /* botões nav */
+a {
+    color: #2F2F2F;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease
+}
+
+a:hover {
+    color: #4A4A4A;
+    text-decoration: underline #4A4A4A
+}
+
+a:active {
+    color: white;
+    background-color: #4A4A4A;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transform: scale(1.1);
+}
+
+/* table index */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 40px
+}
+
+th, td {
+    border: 3px solid #4A4A4A;
+    padding: 16px;
+    text-align: left
+}
+
+th {
+    background-color: #A67C52;
+    color: white
+}
+
+form {
+    width: 50%;
+    margin: 20px auto
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc
+}
+
+ /* botões */
+button {
+    background-color: #8B5E3C;
+    color: white;
+    text-decoration: underline;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease
+}
+
+button:hover {
+    background-color: #A67C52
+}
+
+button:active {
+    background-color: #6161fe;
+    transform: scale(1.1);
+}
+
+/* botão pro topo */
+#to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+/* galeria de imagens */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px
+  }
+
+.gallery-card {
+    background-color: #E4D6C2 ; 
+    padding: 30px 0 10px;
+    border-radius: 8px;
+    text-align: center
+  }
+
+.gallery-card img {
+    max-width: 100%;
+    border-radius: 6px
+  }
+  
+.gallery-card p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #000000
+  }
+
+  /* grid index */
+.imagens-index {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+    max-width: 700px;       
+    margin: 0 auto;        
+    padding: 40px 0;
+}
+
+.imagens-index img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* gerador */
+.gen-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* contato */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px
+  }
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff4d;
+    padding: 20px
+  }
+
+.form-box input,
+.form-box textarea{
+    width: 95%;
+    margin: 0 auto;
+    padding: 12px;
+    border: none;
+    border-radius: 6px
+}
+
+.form-box button{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    padding: 12px;
+    border: none;
+    border-radius: 6px
+}
+
+ /* sobre */
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto
+  }
+ 
+.about-text {
+    background-color: #ffffff4d;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto
+  }
+  
+.about-text {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center
+  }
+  
+.about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto
+  }
