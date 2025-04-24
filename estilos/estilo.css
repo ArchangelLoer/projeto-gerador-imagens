@@ -25,6 +25,7 @@ nav ul {
     padding: 0
 }
 
+
  /* Titulos */
 h1, h2, h3 {
     color: black;
@@ -140,40 +141,36 @@ button:active {
     max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 30px
-  }
+}
 
 .gallery-card {
     background-color: #E4D6C2 ; 
     padding: 30px 0 10px;
     border-radius: 8px;
     text-align: center
-  }
+}
 
 .gallery-card img {
     max-width: 100%;
     border-radius: 6px
-  }
+}
   
 .gallery-card p {
     margin-top: 8px;
     font-size: 14px;
     color: #000000
-  }
-
-  /* grid index */
-.imagens-index {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px;
-    justify-items: center; 
-    max-width: 700px;       
-    margin: 0 auto;        
-    padding: 40px 0;
 }
 
-.imagens-index img {
-    width: 100%;
-    border-radius: 10px;
+  /* index logo */
+.index-logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-logo img {
+    width: 30%;
 }
 
 /* gerador */
@@ -190,7 +187,7 @@ button:active {
     align-items: center;
     gap: 30px;
     padding: 20px
-  }
+}
 
 .form-box {
     display: flex;
@@ -200,7 +197,7 @@ button:active {
     max-width: 500px;
     background-color: #ffffff4d;
     padding: 20px
-  }
+}
 
 .form-box input,
 .form-box textarea{
@@ -229,7 +226,7 @@ button:active {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto
-  }
+}
  
 .about-text {
     background-color: #ffffff4d;
@@ -237,13 +234,13 @@ button:active {
     border-radius: 10px;
     max-width: 500px;
     margin: 0 auto
-  }
+}
   
 .about-text {
     font-size: 20px;
     line-height: 1.6;
     text-align: center
-  }
+}
   
 .about-img {
     max-width: 100%;
@@ -251,4 +248,4 @@ button:active {
     border-radius: 8px;
     display: block;
     margin: 0 auto
-  }
+}

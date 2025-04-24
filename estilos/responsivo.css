@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    /*nav mobile*/
+    header {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 20px 16px
+    }
+    header h1 { 
+     margin-left: 0;
+     margin: 0 auto;
+     text-align: center
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 0 0 0;
+      gap: 10px
+    }
+
+    /*form img gen mobile*/
+    form {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    form label {
+        align-self: flex-start
+      }
+    
+    form button {
+        display: block;
+        margin: 5px auto 0;
+        width: 80px;
+        padding: 8px 12px;
+        font-size: 12px
+    }
+
+    /*sobre mobile*/
+    .about-container {
+        grid-template-columns: 1fr;
+        padding: 20px 10px
+    }
+    
+    .about-text {
+        max-width: 85%;
+        padding: 15px;
+        margin: 0 auto 20px
+    }
+    
+    .about-img {
+        max-width: 85%;
+        margin: 0 auto
+    }
+
+    .about-img img {
+        width: 100%; 
+        height: auto;
+        max-width: 360px;
+        display: block
+    }
+
+    /*gerar img*/
+    .gen-img {
+        max-width: 85%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding: 0 16px
+    }
+    
+      .gallery-card {
+        padding: 16px 0 10px
+    }
+    
+      .gallery-card p {
+        font-size: 14px
+    }
+    
+    .form-container{
+        width: 85%;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    /*form contato mobile*/
+    .form-box {
+        width: 85%;
+        max-width: none;  
+    }
+
+    .form-box input,
+    .form-box textarea {
+        width: 100%;
+        margin: 0; 
+        box-sizing: border-box
+    }
+
+    .form-box button {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    
+    /* botão mobile */
+    #to-top{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0.6;
+    right: 16px;
+    bottom: 16px
+    }
+  }
